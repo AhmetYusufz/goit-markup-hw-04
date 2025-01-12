@@ -333,3 +333,22 @@ h3 {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.container-footer {
+  display: flex;
+  align-items: center;
+}
+.footerdiv-logo {
+  margin-right: 120px;
+}
+.social-media-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--WHİTE);
+  margin-bottom: 16px;
+}
+.footer-ul-socialmedia {
+  display: flex;
+  gap: 16px;
+}
