@@ -264,6 +264,9 @@ h3 {
 .media-item a:focus {
   background-color: var(--OCEAN);
 }
+.media-item a svg{
+  fill:var(--CLOUD)
+}
 .hero-ourportfolio {
   padding: 120px 0;
   text-align: center;
