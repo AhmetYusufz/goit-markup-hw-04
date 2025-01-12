@@ -79,7 +79,7 @@ h2 {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--OCEAN);
 }
-.link_item::after{
+.link_item::after {
   bottom: -1px;
   position: absolute;
   content: "";
@@ -104,7 +104,7 @@ h2 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: normal;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .listmenu li a:hover {
   color: var(--OCEAN);
@@ -113,7 +113,11 @@ h2 {
   color: var(--OCEAN);
 }
 .hero-bigbox {
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/office.jpg);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/office.jpg);
   padding: 188px 0;
   text-align: center;
   max-width: 1440px;
@@ -149,7 +153,7 @@ h2 {
   letter-spacing: 0.04em;
   color: var(--WHİTE);
   margin-left: 477px;
-  transition:"background-color"250ms cubic-bezier(0.4, 0, 0.2, 1)
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button:hover {
   background-color: var(--OCEAN);
@@ -220,7 +224,8 @@ h3 {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   background-color: var(--WHİTE);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08)
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .personal-name {
   padding: 32px 0;
@@ -264,8 +269,8 @@ h3 {
 .media-item a:focus {
   background-color: var(--OCEAN);
 }
-.media-item a svg{
-  fill:var(--CLOUD)
+.media-item a svg {
+  fill: var(--CLOUD);
 }
 .hero-ourportfolio {
   padding: 120px 0;
@@ -282,11 +287,11 @@ h3 {
 }
 .item-box {
   margin-bottom: 48px;
-  transition:box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .item-box:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  transform: translateY(0%);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .portfolio-img {
   position: relative;
@@ -304,7 +309,7 @@ h3 {
   height: 100%;
   width: 100%;
   transform: translateY(100%);
-  transition: "transform" 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .macine-info {
   padding: 32px 16px;
@@ -372,7 +377,7 @@ h3 {
   gap: 16px;
 }
 .footer-ul-socialmedia li a:hover {
-background-color: #31d0aa;
+  background-color: #31d0aa;
 }
 .footer-ul-socialmedia li a:focus {
   background-color: #31d0aa;
