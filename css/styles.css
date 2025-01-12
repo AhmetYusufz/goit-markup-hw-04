@@ -68,14 +68,18 @@ h2 {
 }
 .listmenu li a {
   position: relative;
-  color: var(--OCEAN);
+  color: var(--NAVY-BLUE);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
 }
-.listmenu li a::after{
+.link1 {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: var(--OCEAN);
+}
+.link1::after{
   bottom: -1px;
   position: absolute;
   content: "";
@@ -83,7 +87,7 @@ h2 {
   height: 4px;
   background-color: var(--OCEAN);
   border-radius: 2px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  left: 0;
 }
 .address ul {
   display: flex;
