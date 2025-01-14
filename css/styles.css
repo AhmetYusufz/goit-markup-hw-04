@@ -272,6 +272,9 @@ h3 {
 .media-item a svg {
   fill: var(--CLOUD);
 }
+.media-link {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+}
 .hero-ourportfolio {
   padding: 120px 0;
   text-align: center;
